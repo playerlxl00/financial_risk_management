@@ -1,0 +1,46 @@
+📝 阶段一：专业核心建设 (6-8周)
+这个阶段的目标是深入掌握信用评分卡和巴塞尔协议，这是从业者与业余爱好者的分水岭。
+
+· 信用评分卡 (Scorecard)
+
+核心技术：重点学习逻辑回归和证据权重（WoE）转换。理解逻辑回归的可解释性和稳定性，以及如何使用WoE将分类变量转化为可建模的指标。
+
+权威公开课：TU Delft的"An Introduction to Credit Risk Management"免费公开课：https://online-learning.tudelft.nl/courses/an-introduction-to-credit-risk-management/ ，涵盖了评分卡开发的完整流程，理论与模型结合非常紧密。
+
+· 巴塞尔协议与内部评级法
+
+深度理解：可以阅读《巴塞尔新资本协议》或《Developing, Validating and Using Internal Ratings》（Wiley出版，2011年）等书籍，作为深度参考资料。
+
+⚙️ 阶段二：实战与工具链 (8-10周)
+这个阶段的目标是通过Kaggle实战，熟练掌握从EDA到模型堆叠的完整流程，让招聘方看到你的行动力和技术热情。
+
+· 练习平台与项目：首选Kaggle平台。我之前提到的Kaggle风控类比赛，是你最好的进阶练习。
+
+  · 首选比赛：Home Credit - Credit Risk Model Stability。这是金融机构最关心的实际问题，可学习如何处理时序数据、防范模型衰退。
+
+  · 其他项目：
+
+    · 经典入门："Home Credit Default Risk"，解决方案多，学习曲线平缓。
+
+    · 拓展挑战："IEEE-CIS Fraud Detection"，专注于反欺诈，注重特征工程与GBDT。
+
+GitHub精选资料库：搜索关键词如"scorecard"、"credit-risk"、"anti-fraud"等，参考"awesome-risk-control"：https://github.com/mfanworld/awesome-risk-control 这类总结性仓库。
+
+🧠 阶段四：职业进阶与前沿视野 (长期)
+这个阶段的目标是持续提升业务理解、数据洞察和最终决策能力，在技术上与前沿保持接触。
+
+核心能力养成：逻辑化思考与决策：建议阅读《金字塔原理》和麦肯锡、BCG等行业报告，培养思考问题、分析问题、并给出解决方案的能力。
+
+保持技术前沿性：
+
+AI+风控：阿里妈妈"DNA"平台的实践证明了AI在无监督场景下的效果，值得保持关注。
+
+GNN实战资源：可关注这个精心整理的"Awesome Graph Fraud Detection"资料库：https://github.com/uchechukwukene/graph-fraud-detection-papers。在搜索与图数据关联紧密的反欺诈场景中，例如美团通过图关联识别团伙欺诈，这是一个重要的技术发展方向。
+
+寻找或创造一份“解决问题”的工作：在投递简历时，建议把目光投向有真实风控问题场景的公司，例如：
+
+· 有大量个人或小微企业信贷业务的银行、消金公司和金融科技公司。
+
+· 对反欺诈有强需求的电商和支付平台，如阿里、美团、京东等。
+
+· 为金融机构提供评分卡建设、模型风险管理服务的乙方公司。
