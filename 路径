@@ -12,9 +12,9 @@
 深度理解：可以阅读《巴塞尔新资本协议》或《Developing, Validating and Using Internal Ratings》（Wiley出版，2011年）等书籍，作为深度参考资料。
 
 ⚙️ 阶段二：实战与工具链 (8-10周)
-这个阶段的目标是通过Kaggle实战，熟练掌握从EDA到模型堆叠的完整流程，让招聘方看到你的行动力和技术热情。
+这个阶段的目标是通过Kaggle实战，熟练掌握从EDA到模型堆叠的完整流程。
 
-· 练习平台与项目：首选Kaggle平台。我之前提到的Kaggle风控类比赛，是你最好的进阶练习。
+· 练习平台与项目：首选Kaggle平台。Kaggle风控类比赛是最好的进阶练习。
 
   · 首选比赛：Home Credit - Credit Risk Model Stability。这是金融机构最关心的实际问题，可学习如何处理时序数据、防范模型衰退。
 
