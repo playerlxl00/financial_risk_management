@@ -1,0 +1,45 @@
+## import libraries needed
+# numpy and pandas for data manipulation
+import numpy as np
+import pandas as pd 
+
+# sklearn preprocessing for dealing with categorical variables
+from sklearn.preprocessing import LabelEncoder
+
+# File system manangement
+import os
+
+# Suppress warnings 
+import warnings
+warnings.filterwarnings('ignore')
+
+# matplotlib and seaborn for plotting
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+## read files
+# List files available
+print(os.listdir("../input/"))
+
+# Training data
+app_train = pd.read_csv('../input/application_train.csv')
+print('Training data shape: ', app_train.shape)
+app_train.head()
+
+# Testing data features
+app_test = pd.read_csv('../input/application_test.csv')
+print('Testing data shape: ', app_test.shape)
+app_test.head()
+
+
+
+
+
+
+
+
+
+
+
+
+
