@@ -1,0 +1,54 @@
+第1周：基础 + 红旗识别（建立框架感）目标：理解什么是AML/TM，为什么要做，能快速识别可疑点。
+关键知识点：
+· AML/CFT基础概念（Money Laundering stages: Placement → Layering → Integration）。
+· Transaction Monitoring流程（规则触发 → 警报 → 调查 → 决策 → 报告）。
+· Red Flags（红旗）：最核心内容（structuring、rapid movement、inconsistent with customer profile、high-risk jurisdiction、unusual source of funds等）。
+
+推荐资源（免费优先）：
+· Sumsub AML Fundamentals（免费，含Transaction Monitoring模块）：https://sumsub.com/courses/aml-fundamentals/
+· FATF Virtual Assets Red Flag Indicators（PDF，直接下载）：https://www.fatf-gafi.org/en/publications/Methodsandtrends/Virtual-assets-red-flag-indicators.html
+· FFIEC Red Flags（经典英文列表）：https://bsaaml.ffiec.gov/manual/Appendices/07
+· ComplyAdvantage Red Flags指南：https://complyadvantage.com/insights/aml-red-flags/
+· YouTube播放列表（AML Transaction Monitoring Questions & Answers）：搜索 “AML Transaction Monitoring” playlist（有很多免费讲解）。
+
+本周产出：整理一份“个人Red Flags清单”（10-15条 + 例子），放GitHub。
+
+第2周：规则与调查流程 + 工具上手（开始动手）
+目标：学会如何设计简单规则，并用工具分析数据。
+关键知识点：
+· TM规则设计（阈值、场景、风险评分）。
+· 调查流程（gather data → analyze patterns → corroborate → document）。
+· 常用工具：Excel高级功能、SQL基础、Python（Pandas）。
+
+推荐资源：
+· Udemy免费/低价课程（推荐这个实战向）：https://www.udemy.com/course/anti-money-laundering-aml-transaction-monitoring-analyst-training/ （有真实模拟）
+· Kaggle Fraud Detection数据集（直接练手）：
+  · Credit Card Fraud Detection：https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+  · Financial Fraud Detection（PaySim移动支付合成数据，非常接近真实交易）：https://www.kaggle.com/datasets/sriharshaeedala/financial-fraud-detection-dataset
+
+· Sumsub Advanced Transaction Monitoring（如果想进阶）：他们在网站上有免费内容。
+
+本周产出（最重要！）：
+· 下载Kaggle数据集，用Excel或Python复现你的Dune逻辑（检测大额、快速进出、异常模式）。
+· 输出1份“简单TM规则手册 + 示例检测结果报告”。
+
+第3-4周：马来西亚/区域监管 + 实战项目
+关键知识点：
+· 马来西亚特定要求（Bank Negara Malaysia AML/CFT Guidelines）。
+· STR报告流程、记录保存。
+· 与KYC/CDD的联动。
+
+推荐资源：
+· Bank Negara Malaysia AML/CFT官方页面：https://amlcft.bnm.gov.my/ （看Customer Due Diligence、Reporting、Risk-Based Approach部分）。
+· ACAMS Transaction Monitoring Foundations（付费但权威，如果预算允许）：https://www.acams.org/en/training/certificates/transaction-monitoring-foundations
+· FATF Recommendations（基础法规）：https://www.fatf-gafi.org/en/publications/Fatfrecommendations.html
+
+本周产出：
+· 做一个模拟TM仪表盘（Excel或简单Python Streamlit）。
+· 写2-3个案例研究（用Kaggle数据模拟真实调查报告）。
+· 把所有内容整理到GitHub（README写清楚你的迁移思路：从土狗盘检测到平台交易监控）。
+
+3. 推荐书籍（可选，进阶用）
+· 《AML Transaction Monitoring》by Sourabh Khandelwal（实用向）。
+· 经典案例书：《Billion Dollar Whale》（了解真实洗钱手法）。
+
