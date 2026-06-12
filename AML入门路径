@@ -48,7 +48,25 @@
 · 写2-3个案例研究（用Kaggle数据模拟真实调查报告）。
 · 把所有内容整理到GitHub（README写清楚你的迁移思路：从土狗盘检测到平台交易监控）。
 
-3. 推荐书籍（可选，进阶用）
+推荐书籍（可选，进阶用）
 · 《AML Transaction Monitoring》by Sourabh Khandelwal（实用向）。
 · 经典案例书：《Billion Dollar Whale》（了解真实洗钱手法）。
+
+推荐的实操数据集（2026年最新可用）
+这些都是公开、可直接下载的，质量高，能让你立刻跑你的逻辑：
+1. SAML-D (Synthetic Anti-Money Laundering Dataset) —— 最推荐：
+https://www.kaggle.com/datasets/berkanoztas/synthetic-transaction-monitoring-dataset-aml
+
+2. 专为TM/AML生成，包含丰富typologies（洗钱模式），特征完整。
+IBM Transactions for Anti-Money Laundering (AML) —— 经典大数据集：
+https://www.kaggle.com/datasets/ealtman2019/ibm-transactions-for-anti-money-laundering-aml
+数百万条交易，标签清晰，非常适合练规则引擎和异常检测。
+
+3. SynthAML（学术级合成数据集）
+论文+数据：https://www.nature.com/articles/s41597-023-02569-2 （里面有下载链接）
+
+4. 其他好用：
+· Credit Card Fraud Detection（经典入门）：https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+· Time Series of Transactions - Money Laundering：https://www.kaggle.com/datasets/haroldg/time-series-of-transactions-money-laundering
+
 
