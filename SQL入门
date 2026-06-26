@@ -1,0 +1,67 @@
+🗺️ SQL入门四步学习路径
+1. 理论奠基：了解SQL是什么
+核心概念：理解关系型数据库（像一系列有联系的Excel表格）和SQL（用来操作这些表格的语言）。
+
+学习资源：
+
+文章：阅读《How to Learn SQL: A Practical Guide for Beginners》https://scrimba.com/articles/how-to-learn-sql-a-practical-guide-for-beginners-2026/ 的前半部分，快速建立认知。
+
+在线教程：浏览 W3Schools SQL Tutorial 或 菜鸟教程，了解基本概念。
+
+2. 语法入门：掌握核心操作 (CRUD)
+这是SQL最核心的部分，主要是学习如何对数据进行增(Create)、删(Delete)、改(Update)、查(Read)。
+
+核心语法：重点学习 SELECT, INSERT, UPDATE, DELETE，以及 WHERE, ORDER BY, GROUP BY 等子句。
+
+交互式学习（强烈推荐）：
+
+SQL之母 (sqlmother.yupi.icu)：http://sqlmother.yupi.icu/ 国内开发者制作的免费闯关式教程，有30多个关卡，在浏览器里直接写代码闯关。
+
+SQLBolt：https://sqlbolt.com/ 简短、互动的教程，随学随练。
+
+SQLZoo：https://sqlzoo.net/ 经典的练习平台，每个部分都配有练习。
+
+视频课程（免费）：
+
+Scrimba's Learn SQL Course：https://scrimba.com/learn-sql-c0aviq0aha 3.8小时的完全免费互动课程，可以跟着老师一起写代码。
+
+DataCamp: SQL 入门：https://www.datacamp.com/zh/courses/introduction-to-sql 2小时的免费入门课程，有视频和练习。
+
+3. 进阶查询：解锁多表操作
+现实世界的数据通常分布在多个表中，你需要学习如何将它们关联起来。
+
+核心知识：重点学习表连接 (JOIN)、子查询 (Subquery) 和窗口函数 (Window Function)。
+
+学习资源：
+
+Mode Analytics SQL Tutorial：https://mode.com/sql-tutorial/ 它的“SQL School”部分对JOIN和高级查询讲解得非常清晰。
+
+国家高等教育智慧教育平台课程：https://higher.smartedu.cn/course/69ab48ff95df98bb279df514 免费的大学级别课程，内容系统全面。
+
+4. 实战刷题：在项目中巩固
+这个阶段的目标是在不同的场景中应用SQL，培养解决实际问题的能力。
+
+刷题平台（由易到难）：
+
+HackerRank：https://www.hackerrank.com/domains/sql 题目循序渐进，适合新手。
+
+LeetCode：https://leetcode.com/problemset/database/ 数据库板块是面试准备利器，难度分级明确。
+
+牛客网：https://www.nowcoder.com/ 国内求职刷题平台，有大量SQL真题。
+
+实战项目：
+
+Danny Ma's 8 Week SQL Challenge：提供8个基于真实场景的案例，是绝佳的练手项目。
+
+📚 更多学习资源汇总
+📖 推荐书籍：
+
+《SQL必知必会》：非常经典的入门书，短小精悍。
+
+《SQL基础教程（第2版）》：同样是备受好评的入门书籍。
+
+💻 官方文档与社区：
+
+Microsoft SQL Server 教程：https://learn.microsoft.com/zh-cn/sql/sql-server/tutorials-for-sql-server-2016 微软官方的T-SQL教程。
+
+Stack Overflow：https://stackoverflow.com/questions/tagged/sql 全球最大的编程问答社区，遇到问题可以在这里搜索。
